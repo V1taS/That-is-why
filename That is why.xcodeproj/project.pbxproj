@@ -13,6 +13,7 @@
 		1B74A9E3245816E700486571 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B74A9E1245816E700486571 /* Main.storyboard */; };
 		1B74A9E5245816ED00486571 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B74A9E4245816ED00486571 /* Assets.xcassets */; };
 		1B74A9E8245816ED00486571 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B74A9E6245816ED00486571 /* LaunchScreen.storyboard */; };
+		1B74A9F224582F3900486571 /* ModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B74A9F124582F3900486571 /* ModelView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		1B74A9E4245816ED00486571 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B74A9E7245816ED00486571 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B74A9E9245816ED00486571 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B74A9F124582F3900486571 /* ModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +58,11 @@
 		1B74A9DA245816E700486571 /* That is why */ = {
 			isa = PBXGroup;
 			children = (
+				1B74A9DF245816E700486571 /* ViewController.swift */,
+				1B74A9F124582F3900486571 /* ModelView.swift */,
+				1B74A9E1245816E700486571 /* Main.storyboard */,
 				1B74A9DB245816E700486571 /* AppDelegate.swift */,
 				1B74A9DD245816E700486571 /* SceneDelegate.swift */,
-				1B74A9DF245816E700486571 /* ViewController.swift */,
-				1B74A9E1245816E700486571 /* Main.storyboard */,
 				1B74A9E4245816ED00486571 /* Assets.xcassets */,
 				1B74A9E6245816ED00486571 /* LaunchScreen.storyboard */,
 				1B74A9E9245816ED00486571 /* Info.plist */,
@@ -140,6 +143,7 @@
 			files = (
 				1B74A9E0245816E700486571 /* ViewController.swift in Sources */,
 				1B74A9DC245816E700486571 /* AppDelegate.swift in Sources */,
+				1B74A9F224582F3900486571 /* ModelView.swift in Sources */,
 				1B74A9DE245816E700486571 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,7 +298,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "V1taS.That-is-why";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +316,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "V1taS.That-is-why";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
